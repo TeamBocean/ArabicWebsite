@@ -1,0 +1,42 @@
+import React from "react";
+import heroImage from "../assets/images/hero.png"
+
+export default function Hero () {
+  return (
+    <section class="dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Master The Arabic Language With <span className="text-green">Ramadan</span></h1>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Begin with the Arabic alphabet, dive into grammar, and with tailored lessons from Ramadan to achieve fluency in no time.</p>
+        
+        <div class="flex flex-col mb-8 lg:mb-36 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Book A Class Now
+            </a>
+           
+        </div>
+        <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 bg-cream">
+        <div className="flex flex-wrap justify-center items-center mt-8 text-black sm:justify-between text-2xl">
+
+        <div className="text-center mx-4">  
+            <h1 className="text-6xl font-bold">100+</h1>
+            <h3 className="text-xl mt-2">Students</h3>
+        </div>
+
+        <div className="text-center mx-4">
+            <h1 className="text-6xl font-bold">20+</h1>
+            <h3 className="text-xl mt-2">Years Experience</h3>
+        </div>
+
+        <div className="text-center mx-4">
+            <h1 className="text-6xl font-bold">30+</h1>
+            <h3 className="text-xl mt-2">Articles</h3>
+        </div>
+
+    </div>
+</div>
+ 
+    </div>
+</section>
+    
+  )
+}
