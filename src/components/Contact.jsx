@@ -1,8 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion"
+import {slideIn, staggerContainer, textVariant} from "../utils/motion"
 
 export default function Contact () {
   return (
-  <section className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
+    <motion.section initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{
+      duration: 1,
+      delay: 0.5,
+      ease: [0, 0.71, 0.2, 1.01]
+    }}
+   className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px] px-4">
     <div class="container mx-auto font-poppins">
     <div class="-mx-4 flex flex-wrap lg:justify-between">
       <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -933,7 +942,7 @@ export default function Contact () {
       </div>
     </div>
   </div>
-</section>
+</motion.section>
   )
 }
 
