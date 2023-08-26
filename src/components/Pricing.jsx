@@ -10,14 +10,14 @@ export default function Pricing () {
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 font-poppins">
       <motion.div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
       {/* <TypingText title="| About Metaversus" textStyles="text-center" /> */}
-          <motion.h2 variants={fadeIn('top', 'spring', 0.3, 0.75)} initial="hidden"
-                        whileInView="show" class="mb-4 text-4xl tracking-tight font-extrabold text-green dark:text-white">Our Plans</motion.h2>
+          <h2 variants={fadeIn('top', 'spring', 0.3, 0.75)} initial="hidden"
+                        whileInView="show" class="mb-4 text-4xl tracking-tight font-extrabold text-green dark:text-white">Our Plans</h2>
       </motion.div>
 
       <div className="space-y-8 lg:grid lg:grid-cols-3 lg:space-y-0">
         <div className="md:p-10">
       <motion.div variants={fadeIn('right', 'spring', 0.25, 0.75)} initial="hidden"
-                        whileInView="show" viewport={{ once: true }} class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8 ">
+                        whileInView="show"  class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8 ">
               <h3 class="text-2xl font-semibold">1:1 Classes</h3>
               <div class="flex justify-center items-baseline my-8">
                   <span class="mr-2 text-5xl font-extrabold">€40</span>
@@ -45,12 +45,16 @@ export default function Pricing () {
                       <span>Free updates: <span class="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</a>
+              <motion.a  whileInView="show" 
+                        whileHover={{ scale: 1.1 }} href="#" class="text-white bg-green hover:bg-green hover:text-white focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</motion.a>
           </motion.div>
           </div>
 
           <motion.div variants={fadeIn('right', 'spring', 0.5, 0.75)} initial="hidden"
-                        whileInView="show" viewport={{ once: true }} class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-green rounded-lg border border-gray-100 shadow dark:border-gray-600 lg:p-10 dark:bg-gray-800 dark:text-white">
+                        whileInView="show" 
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                        class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-green rounded-lg border border-gray-100 shadow dark:border-gray-600 lg:p-10 dark:bg-gray-800 dark:text-white">
               <h3 class="text-2xl font-semibold text-white">Leaving Cert Arabic</h3>
               <div class="flex justify-center items-baseline my-8">
                   <span class="mr-2 text-5xl font-extrabold text-white">€300</span>
@@ -78,12 +82,13 @@ export default function Pricing () {
                       <span>Free updates: <span class="font-semibold">24 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-black bg-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</a>
+              <motion.a  whileInView="show" 
+                        whileHover={{ scale: 1.1 }} href="#" class="text-black bg-white  hover:text-green focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Sign Up</motion.a>
           </motion.div>
 
           <div className="md:p-10"> 
           <motion.div variants={fadeIn('right', 'spring', 0.75, 0.75)} initial="hidden"
-                        whileInView="show" viewport={{ once: true }} class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                        whileInView="show" class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 class="text-2xl font-semibold">Quranic Arabic</h3>
               <div class="flex justify-center items-baseline my-8">
                   <span class="mr-2 text-5xl font-extrabold">€150</span>
@@ -111,7 +116,8 @@ export default function Pricing () {
                       <span>Free updates: <span class="font-semibold">36 months</span></span>
                   </li>
               </ul>
-              <a href="#" class="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</a>
+              <motion.a  whileInView="show" 
+                        whileHover={{ scale: 1.1 }} href="#" class="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</motion.a>
           </motion.div>
           </div>
       </div>

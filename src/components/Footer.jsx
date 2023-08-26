@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/images/header-logo.png"
 import logoTwo from "../assets/images/header-logo-one.png"
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 export default function Footer () {
   return (
@@ -19,16 +20,16 @@ export default function Footer () {
                   <h2 class="mb-4 text-sm font-semibold text-green uppercase dark:text-white">Our Links</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium mb-4">
                       <li>
-                          <a href="#hero" class="hover:underline">Home</a>
+                          <a href="#hero" class="hover:underline"><Link activeClass="active" className="test1" to="hero" spy={true} smooth={true} duration={500}>Home</Link></a>
                       </li>
                       <li>
-                          <a href="#about" class="hover:underline">About</a>
+                          <a href="#about" class="hover:underline"><Link activeClass="active" className="test1" to="about" spy={true} smooth={true} duration={500}>About</Link></a>
                       </li>
                       <li>
-                          <a href="#pricing" class="hover:underline">Pricing</a>
+                          <a href="#pricing" class="hover:underline"><Link activeClass="active" className="test1" to="pricing" spy={true} smooth={true} duration={500}>Pricing</Link></a>
                       </li>
                     <li>
-                          <a href="#contact" class="hover:underline">Contact</a>
+                          <a href="#contact" class="hover:underline"><Link activeClass="active" className="test1" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></a>
                       </li>
                   </ul>
               </div>

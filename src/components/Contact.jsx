@@ -4,7 +4,7 @@ import {slideIn, staggerContainer, textVariant} from "../utils/motion"
 
 export default function Contact () {
   return (
-    <motion.section initial={{ opacity: 0, scale: 0.5 }}
+    <motion.section id="contact" initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{
       duration: 1,
@@ -125,7 +125,7 @@ export default function Contact () {
             <div>
               <button
                 type="submit"
-                className="bg-white font-bold border-primary w-full rounded border p-3 text-green transition hover:bg-opacity-90">
+                className="bg-white font-bold border-primary w-full rounded border p-3 text-green transition hover:bg-green hover:text-white">
                 Send Message
               </button>
             </div>

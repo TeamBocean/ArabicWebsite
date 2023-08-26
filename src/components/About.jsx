@@ -5,15 +5,18 @@ import { slideIn } from "../utils/motion";
 
 export default function About() {
   return (
-    <div className=" p-10">
-    <motion.div id="about" variants={slideIn("right", 'tween, 1.5, 1')} initial="hidden"
-    whileInView="show" viewport={{ once: true }} class="relative px-4 flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl mb-28">
+    <div>
+    <div id="about"  class="relative px-4 flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl mb-28">
 
-      <div class="w-full h-64 lg:w-2/5 lg:h-auto">
+      <motion.div variants={slideIn("right", 'tween, 5,5')} initial="hidden"
+    whileInView="show" class="w-full h-64 lg:w-2/5 lg:h-auto">
         <img class="h-full w-full object-cover" src={aboutImage} alt="about-ramadan" />
-      </div>
+      </motion.div>
 
-      <div
+      <motion.div
+
+      variants={slideIn("left", 'tween, 5, 5')} initial="hidden"
+      whileInView="show" 
         class="max-w-lg bg-green md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-2/3 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
         <div class="flex flex-col p-12 md:px-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">About Me</h2>
@@ -26,9 +29,9 @@ export default function About() {
           </p>
 
         </div>
-      </div>
+      </motion.div>
 
-    </motion.div>
+    </div>
     </div>
   )
 }
