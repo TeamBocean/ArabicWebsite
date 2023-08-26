@@ -5,7 +5,8 @@ import { slideIn } from "../utils/motion";
 
 export default function About() {
   return (
-    <motion.div variants={slideIn("right", 'tween, 1.5, 1')} initial="hidden"
+    <div className=" p-10">
+    <motion.div id="about" variants={slideIn("right", 'tween, 1.5, 1')} initial="hidden"
     whileInView="show" viewport={{ once: true }} class="relative px-4 flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl mb-28">
 
       <div class="w-full h-64 lg:w-2/5 lg:h-auto">
@@ -28,5 +29,6 @@ export default function About() {
       </div>
 
     </motion.div>
+    </div>
   )
 }

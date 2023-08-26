@@ -2,11 +2,7 @@
 import flowbitePlugin from 'flowbite/plugin';
 
 export default {
-  purge: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
-  ],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}",  './node_modules/tw-elements/dist/js/**/*.js', 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       fontFamily: {

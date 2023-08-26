@@ -4,7 +4,7 @@ import logo from "../assets/images/header-logo.png"
 export default function Footer () {
   return (
 
-<footer class=" dark:bg-gray-900">
+<footer class=" dark:bg-gray-900 bg-cream font-poppins">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="flex justify-around">
           <div class="mb-6 md:mb-0">
@@ -18,16 +18,16 @@ export default function Footer () {
                   <h2 class="mb-4 text-sm font-semibold text-green uppercase dark:text-white">Our Links</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium mb-4">
                       <li>
-                          <a href="https://flowbite.com/" class="hover:underline">Home</a>
+                          <a href="#hero" class="hover:underline">Home</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">About</a>
+                          <a href="#about" class="hover:underline">About</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">Pricing</a>
+                          <a href="#pricing" class="hover:underline">Pricing</a>
                       </li>
                     <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">Contact</a>
+                          <a href="#contact" class="hover:underline">Contact</a>
                       </li>
                   </ul>
               </div>
