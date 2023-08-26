@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/images/header-logo.png"
+import logoTwo from "../assets/images/header-logo-one.png"
 
 export default function Footer () {
   return (
@@ -9,7 +10,7 @@ export default function Footer () {
         <div class="flex justify-around">
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
-                  <img src={logo} class="h-[100px]" alt="Arabic-Logo" />
+                  <img src={logoTwo} class="h-[100px]" alt="Arabic-Logo" />
                   {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ramadan</span> */}
               </a>
           </div>

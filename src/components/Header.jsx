@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { navVariants } from "../utils/motion"
 import "flowbite"
 import {useState} from "react"
+import logo from "../assets/images/header-logo-one.png"
 
 
 export default function Header() {
@@ -60,8 +61,8 @@ const handleHide = () => {
 
  
         <div>
-        <a href="https://flowbite.com/" class="flex items-center">
-         <img src={headerLogo} class="h-[100px] mr-3" alt="Arabic Logo" />
+        <a href="#" class="flex items-center">
+         <img src={logo} class="h-[100px] mr-3" alt="Arabic Logo" />
         </a>
         </div>
         <div className='flex  hidden w-full md:block md:w-auto mr-10 '>
