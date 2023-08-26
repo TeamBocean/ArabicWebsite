@@ -1,21 +1,21 @@
 import React from "react";
 import aboutImage from '../assets/images/about.png';
 import {motion} from "framer-motion"
-import { slideIn } from "../utils/motion";
+import { slideIn,fadeIn } from "../utils/motion";
 
 export default function About() {
   return (
     <div>
     <div id="about"  class="relative px-4 flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl mb-28">
 
-      <motion.div variants={slideIn("right", 'tween, 5,5')} initial="hidden"
+      <motion.div variants={slideIn("right", "spring", 0.1,1.5)} initial="hidden"
     whileInView="show" class="w-full h-64 lg:w-2/5 lg:h-auto">
         <img class="h-full w-full object-cover" src={aboutImage} alt="about-ramadan" />
       </motion.div>
 
       <motion.div
 
-      variants={slideIn("left", 'tween, 5, 5')} initial="hidden"
+      variants={slideIn("left", "spring", 0.1, 1.5)} initial="hidden"
       whileInView="show" 
         class="max-w-lg bg-green md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-2/3 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
         <div class="flex flex-col p-12 md:px-16">
