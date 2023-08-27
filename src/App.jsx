@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen overflow-hidden">
       <Header/>
       <Hero/>
       <About/>

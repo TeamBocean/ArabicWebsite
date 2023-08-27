@@ -83,7 +83,7 @@ export default function Pricing () {
                   </li>
               </ul>
               <motion.a  whileInView="show" 
-                        whileHover={{ scale: 1.1 }} href="#" class="text-black bg-white  hover:text-green focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Sign Up</motion.a>
+                        whileHover={{ scale: 1.1 }} href="https://islamireland.ie/departments/adult-education/" target="_blank" class="text-black bg-white  hover:text-green focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Sign Up</motion.a>
           </motion.div>
 
           <div className="md:p-10"> 
@@ -117,7 +117,7 @@ export default function Pricing () {
                   </li>
               </ul>
               <motion.a  whileInView="show" 
-                        whileHover={{ scale: 1.1 }} href="#" class="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</motion.a>
+                        whileHover={{ scale: 1.1 }} href="https://islamireland.ie/departments/adult-education/" target="_blank" class="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</motion.a>
           </motion.div>
           </div>
       </div>
