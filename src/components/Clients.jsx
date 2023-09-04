@@ -12,7 +12,7 @@ export default function Clients() {
 
                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3 font-poppins">
                     <motion.div variants={fadeIn('top', 'spring', 0.75, 0.75)} initial="hidden"
-                        whileInView="show" class="p-8 border rounded-lg dark:border-gray-700 bg-purple">
+                        whileInView="show" class="p-8 border rounded-lg dark:border-gray-700 bg-green">
                         <h3 className="text-white font-semibold text-2xl mb-2">Tailored Approach</h3>
                         <p class="leading-loose text-white dark:text-gray-400">
                             “I took Arabic lessons with Mr. Ramadan for my leaving certificate. His tailored approach and feedback significantly improved my Arabic. His interactive classes enhanced our grammar understanding. He covered the Quran, two novels, and poetry, providing us with ample choices for the exams.”
