@@ -22,7 +22,7 @@ export default function Header() {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className="sticky">
+      className="fixed z-20 top-0 w-full bg-white shadow-lg h-20">
 
       <div className='max-w-screen-xl flex justify-between items-center mx-auto font-poppins'>
 
@@ -58,18 +58,18 @@ export default function Header() {
       </div>
       {/* mobile menu */}
       <div className={`${hide ? "hidden" : ""} md:hidden`}>
-        <ul class="flex flex-col my-auto gap-10 uppercase font-bold flex flex-col p-4 md:p-0  border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:border-0 md:bg-white ">
+        <ul className="flex flex-col my-auto gap-10 uppercase font-bold p-4 md:p-0  border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:border-0 md:bg-white ">
           <li>
-            <a href="#hero" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:bg-transparent  md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0  " aria-current="page"><Link activeClass="active" className="test1" to="hero" spy={true} smooth={true} duration={500} >Home</Link></a>
+            <a href="#hero" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:bg-transparent  md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0  " aria-current="page"><Link activeClass="active" className="test1" to="hero" spy={true} smooth={true} duration={500} >Home</Link></a>
           </li>
           <li>
-            <a href="#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 "><Link activeClass="active" className="test1" to="about" spy={true} smooth={true} duration={500} >About</Link></a>
+            <a href="#about" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 "><Link activeClass="active" className="test1" to="about" spy={true} smooth={true} duration={500} >About</Link></a>
           </li>
           <li>
-            <a href="#pricing" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 "><Link activeClass="active" className="test1" to="pricing" spy={true} smooth={true} duration={500} >Pricing</Link></a>
+            <a href="#pricing" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 "><Link activeClass="active" className="test1" to="pricing" spy={true} smooth={true} duration={500} >Pricing</Link></a>
           </li>
           <li>
-            <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 "><Link activeClass="active" className="test1" to="contact" spy={true} smooth={true} duration={500} >Contact</Link></a>
+            <a href="#contact" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green md:p-0 "><Link activeClass="active" className="test1" to="contact" spy={true} smooth={true} duration={500} >Contact</Link></a>
           </li>
         </ul>
       </div>
