@@ -1,6 +1,6 @@
 import React from 'react'
 
-import headerLogo from "../assets/images/header-logo.png"
+
 import { motion } from "framer-motion"
 import { navVariants } from "../utils/motion"
 import "flowbite"

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/images/header-logo.png"
 import logoTwo from "../assets/images/header-logo-one.png"
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
