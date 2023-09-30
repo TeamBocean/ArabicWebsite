@@ -76,7 +76,7 @@ export default function Pricing() {
                       </li>
                   </ul>
                   <motion.a  whileInView="show" 
-                            whileHover={{ scale: 1.1 }} href="https://book.stripe.com/test_aEU8zo6pd0yTbn2aEE" className="text-white bg-green hover:bg-green hover:text-white focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900 " >Sign Up</motion.a>
+                            whileHover={{ scale: 1.1 }} href="https://buy.stripe.com/4gwbKx33DcTu4kUfYY" className="text-white bg-green hover:bg-green hover:text-white focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900 " >Sign Up</motion.a>
               </motion.div>
               </div>
     
@@ -188,7 +188,7 @@ export default function Pricing() {
                       </li>
                   </ul>
                   <motion.a  whileInView="show" 
-                            whileHover={{ scale: 1.1 }} href="https://islamireland.ie/departments/adult-education/" target="_blank" className="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</motion.a>
+                            whileHover={{ scale: 1.1 }} href="https://buy.stripe.com/28o6qd7jTg5G5oY8wy" target="_blank" className="text-white bg-green hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Sign Up</motion.a>
               </motion.div>
               </div>
           </div>
