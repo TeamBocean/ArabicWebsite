@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion"
 import {slideIn, staggerContainer, textVariant} from "../utils/motion"
 
 export default function Contact () {
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [message, setMessage] = useState('')
+
+  useEffect(()=> {
+    setName("")
+    setEmail("")
+    setPhone("")
+    setMessage("")
+  },[])
+
   return (
     <motion.section id="contact" initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
@@ -78,6 +91,8 @@ export default function Contact () {
                 type="text"
                 name="name"
                 placeholder="Your Name"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
                 required
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
@@ -86,6 +101,8 @@ export default function Contact () {
               <input
                 type="email"
                 name="email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
                 required
                 placeholder="Your Email"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
@@ -95,6 +112,8 @@ export default function Contact () {
               <input
                 type="number"
                 name="phone"
+                value={phone}
+                onChange={(event) => setPhone(event.target.value)}
                 required
                 placeholder="Your Phone"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
@@ -104,6 +123,8 @@ export default function Contact () {
               <textarea
                 rows="6"
                 name="message"
+                value={message}
+                onChange={(event) => setMessage(event.target.value)}
                 required
                 placeholder="Your Message"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
