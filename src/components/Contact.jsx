@@ -11,7 +11,7 @@ export default function Contact () {
       delay: 0.5,
       ease: [0, 0.71, 0.2, 1.01]
     }}
-   classNameName="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px] px-4">
+   className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px] px-4">
     <div className="container mx-auto font-poppins">
     <div className="-mx-4 flex flex-wrap lg:justify-between">
       <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -72,24 +72,30 @@ export default function Contact () {
       </div>
       <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
         <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-          <form>
+          <form action="https://formsubmit.co/Rumdan@gmail.com" method="POST">
             <div className="mb-6">
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                required
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div className="mb-6">
               <input
                 type="email"
+                name="email"
+                required
                 placeholder="Your Email"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
             </div>
             <div className="mb-6">
               <input
-                type="text"
+                type="number"
+                name="phone"
+                required
                 placeholder="Your Phone"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               />
@@ -97,6 +103,8 @@ export default function Contact () {
             <div className="mb-6">
               <textarea
                 rows="6"
+                name="message"
+                required
                 placeholder="Your Message"
                 className="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
               ></textarea>
@@ -104,7 +112,7 @@ export default function Contact () {
             <div>
               <button
                 type="submit"
-                classNameName="bg-white font-bold border-primary w-full rounded border p-3 text-green transition hover:bg-green hover:text-white">
+                className="bg-white font-bold border-primary w-full rounded border p-3 text-green transition hover:bg-green hover:text-white">
                 Send Message
               </button>
             </div>

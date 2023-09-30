@@ -11,7 +11,7 @@ import Graduation from "../assets/images/graduation.png";
 
 export default function Hero() {
     return (
-        <motion.section id="hero" className="mb-28 font-poppins"
+        <motion.section id="hero" className="mt-24 mb-28 font-poppins"
         
         initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -57,9 +57,8 @@ export default function Hero() {
                         whileInView="show"
                         whileHover={{ scale: 1.1 }}
                         href="#pricing"
-                        className="mx-auto lg:mx-0 items-center py-3 px-5 text-base font-medium text-white rounded-full bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
-                    >
-                        Book A Class 
+                        className=" lg:mx-0  py-3 px-5 font-medium text-white rounded-full bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 text-c"
+                    >Book A Class 
                     </motion.a>
 
                     <motion.a

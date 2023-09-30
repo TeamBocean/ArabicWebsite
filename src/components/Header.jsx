@@ -22,7 +22,7 @@ export default function Header() {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className="fixed z-20 top-0 w-full bg-white shadow-lg h-20">
+      className="fixed z-20 top-0 w-full bg-white h-20">
 
       <div className='max-w-screen-xl flex justify-between items-center mx-auto font-poppins'>
 
