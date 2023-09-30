@@ -78,7 +78,7 @@ export default function Clients() {
                 >
                 <a
                     href="#"
-                    className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+                    className="inline-flex justify-center items-center mb-8 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
                 >
                     Read More
                 </a>
