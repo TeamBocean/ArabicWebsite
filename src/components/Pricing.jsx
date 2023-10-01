@@ -30,9 +30,8 @@ export default function Pricing() {
         
 
         
-            <div className="space-y-8 lg:grid lg:grid-cols-3 lg:space-y-0">
-            <div className="">
-          <motion.div variants={fadeIn('right', 'spring', 0.25, 0.75)} initial="hidden" whileInView="show"  className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8 ">
+            <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-3 lg:space-y-0 lg:gap-12">
+          <motion.div variants={fadeIn('right', 'spring', 0.25, 0.75)} initial="hidden" whileInView="show"  className="flex flex-col p-6  max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8 ">
                   <h3 className="text-2xl font-semibold">1:1 Classes</h3>
                   <div className="flex justify-center items-baseline my-8">
                       <span className="mr-2 text-5xl font-extrabold">€40</span>
@@ -76,16 +75,17 @@ export default function Pricing() {
                       </li>
                   </ul>
                   <motion.a  whileInView="show" 
-                            whileHover={{ scale: 1.1 }} href="https://buy.stripe.com/4gwbKx33DcTu4kUfYY" className="text-white bg-green hover:bg-green hover:text-white focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900 " >Sign Up</motion.a>
+                            whileHover={{ scale: 1.1 }} href="
+                            https://buy.stripe.com/4gwbKx33DcTu4kUfYY" className="text-white bg-green hover:bg-green hover:text-white focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900 " >Sign Up</motion.a>
               </motion.div>
-              </div>
+             
     
 
 
 
 
             {/* Leaving Cert Plan */}
-              <motion.div variants={fadeIn('right', 'spring', 0.5, 0.75)} initial="hidden" whileInView="show"  whileHover={{ scale: 1.1 }}  transition={{ type: "spring", stiffness: 400, damping: 10 }} className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-green rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white ">
+              <motion.div variants={fadeIn('right', 'spring', 0.5, 0.75)} initial="hidden" whileInView="show"  whileHover={{ scale: 1.1 }}  transition={{ type: "spring", stiffness: 400, damping: 10 }} className="flex flex-col p-6 max-w-lg text-center text-gray-900 bg-green rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white ">
                 <h3 className="text-2xl font-semibold text-white">Leaving Cert Arabic</h3>
                 <div className="flex justify-center items-baseline my-8">
                     <span className="mr-2 text-5xl font-extrabold text-white">€300</span>
@@ -144,7 +144,7 @@ export default function Pricing() {
               {/* Quranic Arabic Plan */}
               <div className=""> 
               <motion.div variants={fadeIn('right', 'spring', 0.75, 0.75)} initial="hidden"
-                            whileInView="show" className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                            whileInView="show" className="flex flex-col p-6 max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 ">
                   <h3 className="text-2xl font-semibold">Quranic Arabic</h3>
                   <div className="flex justify-center items-baseline my-8">
                       <span className="mr-2 text-5xl font-extrabold">€180</span>

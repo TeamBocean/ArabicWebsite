@@ -57,7 +57,7 @@ export default function Hero() {
                         whileInView="show"
                         whileHover={{ scale: 1.1 }}
                         href="#pricing"
-                        className=" lg:mx-0  py-3 px-5 font-medium text-white rounded-full bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 text-c"
+                        className=" lg:mx-0 py-3 px-5 font-medium text-white rounded-full bg-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 leading-7"
                     >Book A Class 
                     </motion.a>
 
@@ -65,7 +65,7 @@ export default function Hero() {
                         whileInView="show"
                         whileHover={{ scale: 1.1 }}
                         href="#contact"
-                        className="mx-auto lg:mx-0 items-center py-3 px-5 text-base font-medium text-green rounded-full border-2 border-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+                        className="lg:mx-0 items-center py-3 px-5 text-base font-medium text-green rounded-full border-2 border-green hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
                     >
                         Contact Me
                     </motion.a>
