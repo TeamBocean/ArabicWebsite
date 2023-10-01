@@ -42,4 +42,4 @@ jobs:
           args: deploy --only hosting
         env:
           PROJECT_ID: arabicireland-61fc8
-          FIREBASE_TOKEN: 1//03sIPyMjrTM_ICgYIARAAGAMSNwF-L9Ir1Rzkv8LilPBsmaX7B0iAUD2PH1zqS4nATjpRSOOWQDeHP7H-xSfu0o6hx7WpZybx3GU
+          FIREBASE_TOKEN: 1//03g88BP5kYQKWCgYIARAAGAMSNwF-L9Ir-UrUcxVPSM6GL8gTXt-J3LDV10by0uUjxvqpdy3KtfLC37XpgWHOKtnxYhnHu3uaT_M
