@@ -19,6 +19,11 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
+      - name: Archive Build
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: build
 
   deploy:
     name: Deploy
