@@ -41,4 +41,5 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: 1//03sIPyMjrTM_ICgYIARAAGAMSNwF-L9Ir1Rzkv8LilPBsmaX7B0iAUD2PH1zqS4nATjpRSOOWQDeHP7H-xSfu0o6hx7WpZybx3GU
+          PROJECT_ID: arabicireland-61fc8
+          FIREBASE_TOKEN: 1//03sIPyMjrTM_ICgYIARAAGAMSNwF-L9Ir1Rzkv8LilPBsmaX7B0iAUD2PH1zqS4nATjpRSOOWQDeHP7H-xSfu0o6hx7WpZybx3GU
