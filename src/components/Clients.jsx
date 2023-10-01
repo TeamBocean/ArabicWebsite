@@ -17,7 +17,7 @@ export default function Clients() {
                             <path d="M11.8463 0.154053C5.50017 0.154053 0.307861 5.34636 0.307861 11.6925V23.231H11.8463V11.6925H4.15401C4.15401 7.42328 7.57709 4.00021 11.8463 4.00021V0.154053ZM31.0771 0.154053C24.7309 0.154053 19.5386 5.34636 19.5386 11.6925V23.231H31.0771V11.6925H23.3848C23.3848 7.42328 26.8079 4.00021 31.0771 4.00021V0.154053Z" fill="white"/>
                         </svg>
                         <p className="leading-loose text-white dark:text-gray-400">
-                            “I took Arabic lessons with Mr. Ramadan for my leaving certificate. His tailored approach and feedback significantly improved my Arabic. His interactive classNamees enhanced our grammar understanding. He covered the Quran, two novels, and poetry, providing us with ample choices for the exams.”
+                            “I took Arabic lessons with Mr. Ramadan for my leaving certificate. His tailored approach and feedback significantly improved my Arabic. His interactive class enhanced our grammar understanding. He covered the Quran, two novels, and poetry, providing us with ample choices for the exams.”
                         </p>
                         <hr className="mt-4 border-2 rounded-lg border-white" />
 
@@ -56,7 +56,7 @@ export default function Clients() {
           <path d="M11.8463 0.154053C5.50017 0.154053 0.307861 5.34636 0.307861 11.6925V23.231H11.8463V11.6925H4.15401C4.15401 7.42328 7.57709 4.00021 11.8463 4.00021V0.154053ZM31.0771 0.154053C24.7309 0.154053 19.5386 5.34636 19.5386 11.6925V23.231H31.0771V11.6925H23.3848C23.3848 7.42328 26.8079 4.00021 31.0771 4.00021V0.154053Z" fill="#00574E"/>
         </svg>
                         <p className="leading-loose text-black dark:text-gray-400">
-                            "I studied Arabic with Mr Ramadan in preparation for my Leaving Cert. He has an engaging teaching style that I really enjoyed and simplifies matters to make sure the className understood everything well. Based on my experience I would highly recommend taking classes with teacher Ramadan."
+                            "I studied Arabic with Mr Ramadan in preparation for my Leaving Cert. He has an engaging teaching style that I really enjoyed and simplifies matters to make sure the class understood everything well. Based on my experience I would highly recommend taking classes with teacher Ramadan."
                         </p>
                         <hr className="mt-4 border-2 rounded-lg border-black" />
 

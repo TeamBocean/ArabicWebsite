@@ -8,7 +8,15 @@
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" /> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <title>Arabic Website</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QEXV0B4QH0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-QEXV0B4QH0');
+</script>
   </head>
   <body>
     <div id="root"></div>
@@ -17,4 +25,27 @@
     <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
    
   </body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBE24l8Ua75-0kv71Hc0jIZJ21w9cFWTNA",
+    authDomain: "arabicireland-61fc8.firebaseapp.com",
+    projectId: "arabicireland-61fc8",
+    storageBucket: "arabicireland-61fc8.appspot.com",
+    messagingSenderId: "115946098378",
+    appId: "1:115946098378:web:1d252b8c6f6583b961ae33",
+    measurementId: "G-QEXV0B4QH0"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </html>
