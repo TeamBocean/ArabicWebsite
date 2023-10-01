@@ -37,6 +37,6 @@ jobs:
           name: build
           path: build
       - name: Deploy Cloud Functions
-        run: npx firebase-tools deploy --only functions --token 1//03Sq9cTr47S9RCgYIARAAGAMSNwF-L9IrWVQt2_lcyJYBjC0H_hTsCmAhwDIHQ05L3eILKbn8YeKKl9YX7m7voZIEPeTFcB75UZM
+        run: npx firebase-tools deploy --only deploy --add arabicireland-61fc8 --token 1//03Sq9cTr47S9RCgYIARAAGAMSNwF-L9IrWVQt2_lcyJYBjC0H_hTsCmAhwDIHQ05L3eILKbn8YeKKl9YX7m7voZIEPeTFcB75UZM
         env:
           GOOGLE_APPLICATION_CREDENTIALS: 1//03g88BP5kYQKWCgYIARAAGAMSNwF-L9Ir-UrUcxVPSM6GL8gTXt-J3LDV10by0uUjxvqpdy3KtfLC37XpgWHOKtnxYhnHu3uaT_M
